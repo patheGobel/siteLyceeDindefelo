@@ -452,3 +452,34 @@ section:nth-child(5) {
     padding: 0.4em 0.6em;
     font-weight: 500;
 }
+
+/* Styles pour les liens des réseaux sociaux */
+.social-links {
+    display: flex;
+    justify-content: center;
+    /* Centre les icônes horizontalement */
+    align-items: center;
+    gap: 1.2rem;
+    /* Espace entre les icônes */
+    margin-top: 1.5rem;
+    /* Espace au-dessus du bloc d'icônes */
+}
+
+.social-links a {
+    transition: transform 0.3s ease-in-out;
+    /* Ajoute un effet de transition */
+}
+
+.social-links a:hover {
+    transform: translateY(-5px);
+    /* Fait "sauter" l'icône au survol */
+}
+
+.social-links img {
+    width: 40px;
+    /* Taille de l'image, comme vous l'avez déjà défini dans le HTML */
+    height: auto;
+    border-radius: 8px;
+    /* Bords légèrement arrondis pour l'esthétique */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
