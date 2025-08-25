@@ -286,24 +286,24 @@ footer {
         width: 180px;
         font-size: 5rem;
     }
-
+    
     h1 {
         font-size: 2rem;
     }
-
+    
     .navbar-brand {
         font-size: 1.3rem;
     }
-
+    
     .contact-info p {
         flex-direction: column;
         align-items: flex-start;
     }
-
+    
     .contact-info strong {
         margin-bottom: 0.3rem;
     }
-
+    
     .stats-value {
         font-size: 1.5rem;
     }
@@ -315,7 +315,6 @@ footer {
         opacity: 0;
         transform: translateY(20px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
@@ -344,4 +343,52 @@ footer {
 
 .progress-bar {
     border-radius: 5px;
+}
+
+/* Table styles */
+.performance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.performance-table th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
+.performance-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.performance-table tr:last-child td {
+    border-bottom: none;
+}
+
+.performance-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.class-rank {
+    display: inline-block;
+    background-color: var(--success-color);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+h6 {
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
