@@ -483,3 +483,74 @@ section:nth-child(5) {
     /* Bords légèrement arrondis pour l'esthétique */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/*+++++++++++++++++*/
+.reading-list {
+    margin: 1.5rem 0;
+}
+
+.book-item {
+    background: rgba(245, 247, 250, 0.7);
+    border-left: 4px solid #3498db;
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.book-title {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.book-comment {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .book-item {
+        padding: 1rem;
+    }
+}
+.audio-experience {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    border-left: 3px solid #3498db;
+}
+
+.audio-experience small {
+    color: #555;
+    font-style: italic;
+    line-height: 1.5;
+}
+.reading-ritual {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(46, 204, 113, 0.1);
+    border-radius: 8px;
+    border-left: 3px solid #2ecc71;
+}
+
+.reading-ritual small {
+    color: #555;
+    font-style: italic;
+    line-height: 1.5;
+}
+.philosophical-note {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: rgba(155, 89, 182, 0.1);
+    border-radius: 8px;
+    border-left: 3px solid #9b59b6;
+}
+
+.philosophical-note small {
+    color: #555;
+    font-style: italic;
+    line-height: 1.5;
+}
