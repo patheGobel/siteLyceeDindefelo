@@ -132,8 +132,12 @@ h1:after {
 .contact-info p {
     margin-bottom: 0.8rem;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    /* change de center à flex-start */
+    flex-wrap: wrap;
+    /* permet au texte de passer à la ligne */
 }
+
 
 .contact-info strong {
     min-width: 90px;
